@@ -13,6 +13,9 @@
                 <div class="card-body">
                     
                     <a href="{{url('admin/post/create')}}"><button class="btn btn-primary btn-lg btn-block">Create Post</button></a>
+                    @can('isAdmin')
+                    <a href="{{url('admin/users/all')}}"><button class="btn btn-primary btn-lg btn-block">All Users</button></a>
+                    @endcan
                 </div>
             </div>
         </div>

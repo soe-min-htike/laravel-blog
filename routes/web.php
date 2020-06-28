@@ -23,6 +23,7 @@ Route::group(['prefix' => 'admin','middleware' =>'myware'], function () {
     Route::get('post/delete/{id}','PostController@destroy');
     Route::post('post/comment','CommentController@store');
     // Route::get('image/delete/{id}','PostController@photodel');
+    Route::get('users/all','HomeController@allusers')->middleware(['can:isAdmin']);
 
 
 
