@@ -4,6 +4,7 @@
  php artisan migrate
 
 Create Database 
-Run php artisan serve command
+Run php artisan db:seed
+Run php artisan serve
 Run on browser localhost:8000/
 Register with your name and password
