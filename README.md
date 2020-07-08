@@ -1,10 +1,16 @@
-# How to Install
- git clone https://github.com/soe-min-htike/blog.git
- composer install
- php artisan migrate
+# BLog (Laravel)
+
+This blog include the following list 
+
+- Permission with gate
+- Image upload
+- One To Many Relationships
+- Many To Many Relationships
+- Polymorphic Relationships
 
 Create Database 
 Run php artisan db:seed
 Run php artisan serve
 Run on browser localhost:8000/
-Register with your name and password
+Admin email => mgmg@gmail.com
+	password=>123123123
